@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: grey;
+}
+/* boxes */
+.box{
+    border: 8px red solid;
+    background-color: white;
+    border-radius: 15px;
+}
+.mid-box{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    line-height: 1.8;
+    color: rgb(37, 0, 77);
+    text-shadow: 1px 2px 2px rgb(137, 50, 139);
+    box-shadow: 6px 6px 1px rgb(107, 0, 76);
+}
+.div2{
+    padding: 30px 0px;
+}
+.image{
+    height: 170px;
+    width: 200px;
+    border: 2px solid black;
+    border-top: 0px;
+}
+.div3{
+    line-height: 1;
+    padding: 10px 0;
+    text-align: left;
+    font-size: 25px;
+}
+.div4{
+    line-height: 1;
+    font-size: small;
+    padding-top: 20px;
+}
+.div4 h2{
+    font-size: x-large;
+}
+.div4 input{
+    text-align: center;
+}
+.button{
+    background-color: orangered;
+    border-radius: 9px;
+    padding: 0px 5px;
+    font-size: smaller;
+}
+
+/* top */
+.top{
+    display: flex;
+    position: relative;
+    margin-top: 5px;
+    right: 60px;
+    height: 150px;
+    width: 450px;
+    text-align: center;
+    line-height: 1.6;
+    padding: 10px 110px;
+    color: rgb(175, 34, 86);
+    font-style: italic;
+    text-shadow: 2px 2px 2px rgb(175, 34, 86);
+    box-shadow: 6px 6px 1px rgb(136, 23, 104);
+}
+
+/* middle */
+.mid-top{
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    /* margin-bottom: 20px; */
+}
+.mid-bot{
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.middle{
+    border: 8px solid green;
+}
+
+/* bottom */
+.bottom{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    border: 8px solid darkviolet;
+    height: 96vh;
+    width: 60vw;
+    background-color: green;
+    align-items: center;
+    line-height: 2;
+}
+.bottom hr{
+    color: blue;
+}
+.bottom-mid{
+    display: flex;
+    flex-direction: row;
+}
+.fruits{
+    border: 2px solid darkgrey;
+}
+.veggies{
+    border: 2px solid darkgrey;
+}
+.others{
+    border: 2px solid darkgrey;
+}
+.bot-box{
+    justify-content: center;
+    margin-top: 20px;
+    background-color: yellow;
+    margin: 5px;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+/* Sticky box */
+.sticky{
+    display: flex;
+    position: fixed;
+    bottom: 30px;
+    left: 350px;
+    height: 110px;
+    width: 450px;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(198, 6, 6);
+    background-color: rgb(129, 244, 71);
+}
